@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	padding-bottom: 70px;
+}
+
+h1{
+	text-align: center;
+	vertical-align: middle;
+}
+
+header{
+	background-color: #1F211D;
+	color: #E7E6E8;
+	height: 110px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+#mainTitle{
+	font-family: 'Erica One';
+	font-size: 400%;
+}
+
+#secondaryTitle{
+	color: #E7E6E8;
+}
+
+.nav{
+	text-align: center;
+}
+
+.wrapper{
+	background-image: url(../images/bg.jpg);
+	background-position: fixed;
+	position: fixed;
+	height:1497px;
+}
+
+.content{
+	padding-top: 50px;
+	margin-top: 50px;
+	height: 1000px;
+	text-align: center;
+	background-color: gray;
+	/*opacity: .3;*/
+	background-color:rgba(0, 0, 0, 0.34);
+}
+
+.container{
+	height: 200px;
+	/*margin-top: 6%;*/
+	height: 1200px;
+	margin: 70px, auto;
+	border: 1px solid black;
+}
